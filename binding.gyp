@@ -23,7 +23,7 @@
                 '-fexceptions'
               ],
               'OTHER_LDFLAGS': [
-                "-Wl,-rpath,<@(module_root_dir)/build/Release"
+                "-Wl,-rpath,@loader_path"
               ]
             },
             "link_settings": {
